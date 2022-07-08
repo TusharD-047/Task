@@ -1,0 +1,295 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+   margin-top: 48px;
+   margin-bottom: 4px;
+}
+
+.navbar p{
+   font-family: fantasy;
+   font-size: 40px;
+   margin-left: 20px;
+}
+
+.navbar a{
+   color: black;
+   font-size: 28px;
+   margin-left: 35px;
+}
+
+.navbar a:hover{
+   border-bottom: 2px solid black;
+}
+
+.navbar img{
+   margin: 4px;
+}
+.nav_right{
+   display: flex;
+   align-items: flex-end;
+   margin-right: 30px;
+}
+.images_nav{
+   margin-left: 20px;
+}
+
+.home{
+   display: flex;
+   margin-top: 80px;
+   align-items: center;
+
+}
+.text{
+   padding: 80px;
+}
+.text p{
+  font-size: 19px;
+  text-align: justify;
+  padding: 2px;
+}
+#market{
+   font-size: 4.2em;
+   font-weight: bold;
+   font-family: sans-serif;
+   text-align: center;
+}
+
+.aboutUs{
+   display: flex;
+   margin-top: 100px;
+   align-items: center;
+}
+
+.buttons{
+   display:  flex;
+   justify-content: space-between;
+}
+.type1{
+   padding: 10px;
+   margin-top: 10px;
+   color: white;
+   background: black;
+   width: 45%;
+   height: 60px;
+   font-size: 20px;
+   border: none;
+   border-radius: 4px;
+}
+
+.type2{
+   padding: 10px;
+   margin-top: 10px;
+   color: black;
+   width: 45%;
+   height: 60px;
+   font-size: 20px;
+   border: none;
+   border-radius: 4px;
+}
+.services{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 80px;
+   margin-bottom: 40px;
+}
+.serviceType{
+   padding: 5%;
+   width: 40%;
+   margin-left: 10px;
+
+}
+.card1{
+   width: 30%;
+   background: black;
+   margin-right: 5px;
+   padding: 10px;
+   border: none;
+   border-radius: 0px 20px 20px 0px;
+}
+
+
+.card2{
+   width: 30%;
+   background: whitesmoke;
+   margin-left: 5px;
+   margin-right: 10px;
+   padding: 10px;
+   border: none;
+   border-radius: 0px 20px 20px 0px;
+}
+.card3{
+   background: black;
+   margin-right: 15px;
+   padding: 20px;
+   border: none;
+   border-radius: 0px 20px 20px 0px;
+}
+.card4{
+   background: whitesmoke;
+   margin-right: 15px;
+   padding: 20px;
+   border: none;
+   border-radius: 0px 20px 20px 0px;
+}
+.members{
+   display: flex;
+   justify-content: space-evenly;
+   padding: 10px;
+   margin-top: 40px;
+}
+.members p, h2{
+   text-align: center;
+   padding: 4px;
+}
+.loginForm{
+   display: flex;
+   background: black;
+}
+.loginForm h1, h2{
+   color: white;
+}
+.loginForm label{
+   color: white;
+}
+.users{
+   display: flex;
+   margin-bottom: 40px;
+}
+.users p{
+   color: black; 
+   text-align: justify; 
+   padding: 10px; 
+   font-size: 24px;
+}
+
+#headUser{
+   padding: 15px;
+   margin-top: 40px;
+   text-align: center;
+   font-size: 3.1em;
+   font-weight: bold;
+   margin-bottom: 40px;
+}
+
+.blogs{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.part1{
+   display: flex;
+   margin:100px;
+}
+.part2{
+   display: flex;
+   margin:100px;
+}
+.contact_us{
+   display: flex;
+   background: black;
+   margin-top: 80px;
+}
+.askus{
+   width: 60%;
+   margin-left: 30px;
+   margin-top: 80px;
+   margin-right: 30px;
+   padding: 10px;
+}
+.inputs{
+      display: flex;
+      flex-direction: column;
+
+}
+.inputBoxes{
+   display: flex;
+}
+input{
+   background: black;
+   border: 1px solid whitesmoke;
+}
+
+.login{
+   margin-top: 80px;
+   width: 55%;
+   margin-left: 45px;
+}
+.formLogin{
+   margin-top: 35px;
+   display: flex;
+   flex-direction: column;
+}
+
+.formLogin input{
+   width: 50%;
+   height: 40px;
+   border: 0px none;
+   border-bottom: 1px dashed white;
+   margin-bottom: 10px;
+}
+
+
+@media (max-width: 864px){
+   .navbar{
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+   }
+   .nav_right{
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .home{
+      flex-direction: column;
+   }
+
+   .aboutUs{
+      flex-direction: column;
+   }
+   .services{
+      flex-direction: column;
+      margin: 20px;
+   }
+   .card1{
+      margin: 10px;
+      width: 80%;
+   }
+   .card2{
+      margin: 10px;
+      width: 80%;
+   }
+
+   p{
+      font-size: 0.7em;
+   }
+   .members{
+      flex-direction: column;
+      align-items: center;
+   }
+   #imgLogin{
+      display: none;
+   }
+
+   .login{
+      width: 100%;
+      text-align: center;
+   }
+
+    .formLogin{
+      align-items: center;
+    }
+}
+
+
+
+
